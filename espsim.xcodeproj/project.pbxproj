@@ -86,7 +86,7 @@
 				2BF00D18204E14E600B3C183 /* sim */,
 				2BF00D13204E14E500B3C183 /* user */,
 			);
-			path = espsim;
+			name = espsim;
 			sourceTree = "<group>";
 		};
 		2BF00D13204E14E500B3C183 /* user */ = {
