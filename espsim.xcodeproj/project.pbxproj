@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BF00D23204E14E600B3C183 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D14204E14E500B3C183 /* main.cpp */; };
+		2BF00D24204E14E600B3C183 /* conn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D19204E14E600B3C183 /* conn.cpp */; };
+		2BF00D25204E14E600B3C183 /* espsim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D1B204E14E600B3C183 /* espsim.cpp */; };
+		2BF00D26204E14E600B3C183 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D1D204E14E600B3C183 /* misc.cpp */; };
+		2BF00D27204E14E600B3C183 /* network.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D1E204E14E600B3C183 /* network.cpp */; };
+		2BF00D28204E14E600B3C183 /* system.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D20204E14E600B3C183 /* system.cpp */; };
+		2BF00D29204E14E600B3C183 /* wifi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D21204E14E600B3C183 /* wifi.cpp */; };
+		2BF00D2A204E14E600B3C183 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D22204E14E600B3C183 /* Makefile */; };
+		2BF00D2C204E228A00B3C183 /* user_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D2B204E228A00B3C183 /* user_main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2BF00D06204E142600B3C183 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2BF00D08204E142600B3C183 /* espsim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = espsim; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF00D12204E14E500B3C183 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		2BF00D14204E14E500B3C183 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2BF00D16204E14E500B3C183 /* user_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user_config.h; sourceTree = "<group>"; };
+		2BF00D17204E14E600B3C183 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		2BF00D19204E14E600B3C183 /* conn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = conn.cpp; sourceTree = "<group>"; };
+		2BF00D1A204E14E600B3C183 /* esp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = esp.h; sourceTree = "<group>"; };
+		2BF00D1B204E14E600B3C183 /* espsim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = espsim.cpp; sourceTree = "<group>"; };
+		2BF00D1C204E14E600B3C183 /* espsim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = espsim.h; sourceTree = "<group>"; };
+		2BF00D1D204E14E600B3C183 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = misc.cpp; sourceTree = "<group>"; };
+		2BF00D1E204E14E600B3C183 /* network.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = network.cpp; sourceTree = "<group>"; };
+		2BF00D1F204E14E600B3C183 /* network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
+		2BF00D20204E14E600B3C183 /* system.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = system.cpp; sourceTree = "<group>"; };
+		2BF00D21204E14E600B3C183 /* wifi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wifi.cpp; sourceTree = "<group>"; };
+		2BF00D22204E14E600B3C183 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = SOURCE_ROOT; };
+		2BF00D2B204E228A00B3C183 /* user_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = user_main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BF00D05204E142600B3C183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BF00CFF204E142600B3C183 = {
+			isa = PBXGroup;
+			children = (
+				2BF00D0A204E142600B3C183 /* espsim */,
+				2BF00D09204E142600B3C183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BF00D09204E142600B3C183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BF00D08204E142600B3C183 /* espsim */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BF00D0A204E142600B3C183 /* espsim */ = {
+			isa = PBXGroup;
+			children = (
+				2BF00D15204E14E500B3C183 /* include */,
+				2BF00D12204E14E500B3C183 /* LICENSE */,
+				2BF00D22204E14E600B3C183 /* Makefile */,
+				2BF00D17204E14E600B3C183 /* README.md */,
+				2BF00D18204E14E600B3C183 /* sim */,
+				2BF00D13204E14E500B3C183 /* user */,
+			);
+			path = espsim;
+			sourceTree = "<group>";
+		};
+		2BF00D13204E14E500B3C183 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				2BF00D14204E14E500B3C183 /* main.cpp */,
+				2BF00D2B204E228A00B3C183 /* user_main.c */,
+			);
+			path = user;
+			sourceTree = SOURCE_ROOT;
+		};
+		2BF00D15204E14E500B3C183 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2BF00D16204E14E500B3C183 /* user_config.h */,
+			);
+			path = include;
+			sourceTree = SOURCE_ROOT;
+		};
+		2BF00D18204E14E600B3C183 /* sim */ = {
+			isa = PBXGroup;
+			children = (
+				2BF00D19204E14E600B3C183 /* conn.cpp */,
+				2BF00D1A204E14E600B3C183 /* esp.h */,
+				2BF00D1B204E14E600B3C183 /* espsim.cpp */,
+				2BF00D1C204E14E600B3C183 /* espsim.h */,
+				2BF00D1D204E14E600B3C183 /* misc.cpp */,
+				2BF00D1E204E14E600B3C183 /* network.cpp */,
+				2BF00D1F204E14E600B3C183 /* network.h */,
+				2BF00D20204E14E600B3C183 /* system.cpp */,
+				2BF00D21204E14E600B3C183 /* wifi.cpp */,
+			);
+			path = sim;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BF00D07204E142600B3C183 /* espsim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF00D0F204E142600B3C183 /* Build configuration list for PBXNativeTarget "espsim" */;
+			buildPhases = (
+				2BF00D04204E142600B3C183 /* Sources */,
+				2BF00D05204E142600B3C183 /* Frameworks */,
+				2BF00D06204E142600B3C183 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = espsim;
+			productName = espsim;
+			productReference = 2BF00D08204E142600B3C183 /* espsim */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BF00D00204E142600B3C183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = skulp.net;
+				TargetAttributes = {
+					2BF00D07204E142600B3C183 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2BF00D03204E142600B3C183 /* Build configuration list for PBXProject "espsim" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BF00CFF204E142600B3C183;
+			productRefGroup = 2BF00D09204E142600B3C183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BF00D07204E142600B3C183 /* espsim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BF00D04204E142600B3C183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF00D23204E14E600B3C183 /* main.cpp in Sources */,
+				2BF00D26204E14E600B3C183 /* misc.cpp in Sources */,
+				2BF00D2C204E228A00B3C183 /* user_main.c in Sources */,
+				2BF00D28204E14E600B3C183 /* system.cpp in Sources */,
+				2BF00D25204E14E600B3C183 /* espsim.cpp in Sources */,
+				2BF00D27204E14E600B3C183 /* network.cpp in Sources */,
+				2BF00D29204E14E600B3C183 /* wifi.cpp in Sources */,
+				2BF00D2A204E14E600B3C183 /* Makefile in Sources */,
+				2BF00D24204E14E600B3C183 /* conn.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2BF00D0D204E142600B3C183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/loppen/Documents/stoffer/esp8266/espsim/sim,
+					/Users/loppen/Documents/stoffer/esp8266/espsim/include,
+					"/Users/loppen/Documents/stoffer/esp8266/esp-open-sdk/ESP8266_NONOS_SDK_V2.0.0_16_08_10/include",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DLINUX";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2BF00D0E204E142600B3C183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/loppen/Documents/stoffer/esp8266/espsim/sim,
+					/Users/loppen/Documents/stoffer/esp8266/espsim/include,
+					"/Users/loppen/Documents/stoffer/esp8266/esp-open-sdk/ESP8266_NONOS_SDK_V2.0.0_16_08_10/include",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "-DLINUX";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2BF00D10204E142600B3C183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BF00D11204E142600B3C183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BF00D03204E142600B3C183 /* Build configuration list for PBXProject "espsim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF00D0D204E142600B3C183 /* Debug */,
+				2BF00D0E204E142600B3C183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF00D0F204E142600B3C183 /* Build configuration list for PBXNativeTarget "espsim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF00D10204E142600B3C183 /* Debug */,
+				2BF00D11204E142600B3C183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BF00D00204E142600B3C183 /* Project object */;
+}

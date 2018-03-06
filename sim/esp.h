@@ -14,13 +14,19 @@
 #define ETS_UNCACHED_ADDR(addr) ets_uncached_addr(addr)
 #define ETS_CACHED_ADDR(addr) ets_cached_addr(addr)
 
+#ifdef __cplusplus
 extern "C" {
+#endif
 extern unsigned char *ets_uncached_addr(int addr);
 extern unsigned char *ets_cached_addr(int addr);
+#ifdef __cplusplus
 }
 #endif
+#endif
 
+#ifdef __cplusplus
 extern "C" {
+#endif
 #include "ets_sys.h"
 #include "user_interface.h"
 #include "mem.h"
@@ -121,6 +127,8 @@ void *sim_alloc(const char *file, int line, size_t n);
 
 #endif
 
+#ifdef __cplusplus
 }
+#endif
 
 #endif

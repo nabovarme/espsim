@@ -73,10 +73,10 @@ bool getmacaddr(uint8_t *mac) {
 
 		if (ioctl(fd, SIOCGIFFLAGS, &ifr) == 0) {
 			if (!(ifr.ifr_flags & IFF_LOOPBACK)) { // don't count loopback
-				if (ioctl(fd, SIOCGIFHWADDR, &ifr) == 0) {
-					success = 1;
-					break;
-				}
+//				if (ioctl(fd, SIOCGIFHWADDR, &ifr) == 0) {
+//					success = 1;
+//					break;
+//				}
 			}
 		} else { /* handle error */
 			perror("ioctl");
@@ -85,8 +85,8 @@ bool getmacaddr(uint8_t *mac) {
 		}
 	}
 
-	if (success)
-	memcpy(mac, ifr.ifr_hwaddr.sa_data, 6);
+//	if (success)
+//	memcpy(mac, ifr.ifr_hwaddr.sa_data, 6);
 
 	return success;
 }
