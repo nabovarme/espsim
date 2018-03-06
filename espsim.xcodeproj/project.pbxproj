@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BF00D23204E14E600B3C183 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D14204E14E500B3C183 /* main.cpp */; };
+		2BD16BAC204EBC5900B61F84 /* uart_hook.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BD16BAB204EBC5800B61F84 /* uart_hook.c */; };
 		2BF00D24204E14E600B3C183 /* conn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D19204E14E600B3C183 /* conn.cpp */; };
 		2BF00D25204E14E600B3C183 /* espsim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D1B204E14E600B3C183 /* espsim.cpp */; };
 		2BF00D26204E14E600B3C183 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF00D1D204E14E600B3C183 /* misc.cpp */; };
@@ -31,9 +31,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2BD16BAB204EBC5800B61F84 /* uart_hook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uart_hook.c; sourceTree = "<group>"; };
 		2BF00D08204E142600B3C183 /* espsim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = espsim; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF00D12204E14E500B3C183 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
-		2BF00D14204E14E500B3C183 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2BF00D16204E14E500B3C183 /* user_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user_config.h; sourceTree = "<group>"; };
 		2BF00D17204E14E600B3C183 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		2BF00D19204E14E600B3C183 /* conn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = conn.cpp; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 		2BF00D13204E14E500B3C183 /* user */ = {
 			isa = PBXGroup;
 			children = (
-				2BF00D14204E14E500B3C183 /* main.cpp */,
 				2BF00D2B204E228A00B3C183 /* user_main.c */,
+				2BD16BAB204EBC5800B61F84 /* uart_hook.c */,
 			);
 			path = user;
 			sourceTree = SOURCE_ROOT;
@@ -179,7 +179,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF00D23204E14E600B3C183 /* main.cpp in Sources */,
 				2BF00D26204E14E600B3C183 /* misc.cpp in Sources */,
 				2BF00D2C204E228A00B3C183 /* user_main.c in Sources */,
 				2BF00D28204E14E600B3C183 /* system.cpp in Sources */,
@@ -187,6 +186,7 @@
 				2BF00D27204E14E600B3C183 /* network.cpp in Sources */,
 				2BF00D29204E14E600B3C183 /* wifi.cpp in Sources */,
 				2BF00D2A204E14E600B3C183 /* Makefile in Sources */,
+				2BD16BAC204EBC5900B61F84 /* uart_hook.c in Sources */,
 				2BF00D24204E14E600B3C183 /* conn.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
