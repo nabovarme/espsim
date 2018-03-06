@@ -429,7 +429,7 @@ static void debug1(int line) {
 }
 
 extern "C" {
-	sint8 espconn_sent(struct espconn *conn, uint8 *psent, uint16 length) {
+	sint8 espconn_send(struct espconn *conn, uint8 *psent, uint16 length) {
 		MySocket *s = findSocket(conn);
 		socketdebug(&s->addr, "sent fd:%d len:%d\n", s->fd, length);
 		return queueBuffer(s, psent, length);
@@ -538,10 +538,10 @@ extern "C" {
 		return espconn_disconnect(conn);
 	}
 
-	sint8 espconn_secure_sent(struct espconn *conn, uint8 *psent, uint16 length) {
+	sint8 espconn_secure_send(struct espconn *conn, uint8 *psent, uint16 length) {
 		MySocket *s = findSocket(conn);
 		socketdebug2(s);
-		return espconn_sent(conn, psent, length);
+		return espconn_send(conn, psent, length);
 	}
 
 	uint8 espconn_tcp_get_max_con(void) {
